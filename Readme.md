@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Алексей Вельмискин](https://up.htmlacademy.ru/htmlcss/36/user/2252263).
-* Наставник: [Дмитрий Виноградов] (https://htmlacademy.ru/profile/id839417).
+* Наставник: [Дмитрий Виноградов](https://htmlacademy.ru/profile/id839417).
 
 ---
 
