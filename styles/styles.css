@@ -23,5 +23,223 @@
 }
 
 body {
-  font-family: "Rubik";
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.navigation-item {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.navigation-user-item {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.navigation-number-product {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dropdown-content-list {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.promo-slider-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+dt {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+dd {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.promo-slider-link {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.catalog-list {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.service-slider-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.service-slider-pagination-button {
+font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.delivery-link {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 23.48px;
+}
+
+.about-us-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.about-us-list {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.about-us-link {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.contacts-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.contacts-subtitle {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.contacts-address {
+  font-style: normal;
+}
+
+.contacts-link {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.subscription-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.subscription-button-submit {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+
+.footer-address-text {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.footer-navigation-list {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.footer-contacts-address {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.header-inner-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.breadcrumbs-list {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.catalog-products-filter-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18.78px;
+}
+
+.catalog-filter-title {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.color {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.control {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.product-card-title {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.product-card-price {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+}
+
+.button-pagination-show-more {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18.78px;
+}
+
+.product-card-pagination-list {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.pagination-prev, .pagination-next {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
 }
