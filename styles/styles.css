@@ -23,5 +23,426 @@
 }
 
 body {
-  font-family: "Rubik";
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+  background-color: #ffffff;
+}
+
+.page-header {
+  background-image: url("../images/Rectangle-yellow.svg");
+}
+
+/*уточнить, как оформить фоновое изображение*/
+
+.page-header a {
+  text-decoration: none;
+}
+
+.navigation-user-item a {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  align-items: center;
+}
+
+.navigation-search {
+  background-color: #ffe17f;
+}
+
+.navigation-submit-search {
+  background-color: #ffe17f;
+}
+
+.navigation-user-close {
+  opacity: 0.3;
+}
+
+.navigation-item a {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.dropdown-button {
+  background-color: #ffe17f;
+}
+
+.dropdown-content-list a {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: normal;
+  color: #000000;
+  text-transform: none;
+}
+
+.navigation-number-product {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #ffffff;
+  align-items: center;
+  text-align: center;
+}
+
+.promo-slider-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.characteristic-list-term {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #444444;
+}
+
+.characteristic-list-description {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.promo-slider-link {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.promo-slider-pagination-button-current {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Уточнить про подложку-линию для ссылок*/
+
+.catalog-list a {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.catalog-link-img-container {
+  background-color: #ffe17f;
+}
+
+.service {
+  background-image: url("../images/Rectangle-grey.svg");
+}
+
+.service-slider-item-delivery {
+  background-image: url("../images/page/service-delivery.svg");
+  background-repeat: no-repeat;
+}
+
+.service-slider-item-garanty{
+  background-image: url("../images/page/service-garanty.svg");
+  background-repeat: no-repeat;
+}
+
+.service-slider-item-credit {
+  background-image: url("../images/page/service-credit.svg");
+  background-repeat: no-repeat;
+}
+
+.service-slider-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.service-slider-pagination-button {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.service-slider-pagination-button-current {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffe17f;
+  background-color: #000000;
+}
+
+.delivery-link {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  background-color: #f0f0f0;
+}
+
+.about-us-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.about-us-list {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.about-us-link {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.contacts-subtitle {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.contacts-address {
+  font-style: normal;
+}
+
+.contacts-phone {
+  text-decoration: underline;
+  color: #444444;
+}
+
+.contacts-link {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.subscription {
+  background-image: url("../images/Rectangle-grey.svg");
+}
+
+.subscription-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.subscription-button-submit {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.page-footer {
+  background-image: url("../images/Rectangle-grey-dark.svg");
+  background-color: #000000;
+}
+
+.footer-address-text {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.footer-navigation-list a {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-contacts-phone {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.header-inner-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.breadcrumbs-list a {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.catalog-products {
+  background-color: #f0f0f0;
+}
+
+.catalog-products-filter-title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.catalog-filter-title {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.color {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.control {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.button-catalog {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.product-list {
+  background-color: #ffffff;
+}
+
+.product-card-link {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.product-card-price {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: right;
+}
+
+.button-pagination-show-more-container {
+  background-color: #ffffff;
+}
+
+.button-pagination-show-more {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.product-card-pagination-link {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  opacity: 0.3;
+  text-decoration: none;
+}
+
+.product-card-pagination-link-current {
+  opacity: 0.6;
+}
+
+.pagination-prev, .pagination-next {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.pagination-disabled {
+  color: #444444;
+  opacity: 0.3;
 }
